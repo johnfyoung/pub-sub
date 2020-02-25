@@ -1,2 +1,2 @@
 # pub-sub
-A Javascript Mixinn for custom Objects
+A Javascript Mixin for custom Objects

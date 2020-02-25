@@ -9,7 +9,7 @@
     on: function (ev, listener) {
       var calls = this._listeners || (this._listeners = {});
       var token = this._uuid();
-      (this._listeners[ev] || (this._listeners[ev] = {}))[id] = listener;
+      (this._listeners[ev] || (this._listeners[ev] = {}))[token] = listener;
 
       return {
         ev,
